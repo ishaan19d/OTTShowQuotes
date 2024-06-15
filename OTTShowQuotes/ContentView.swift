@@ -19,7 +19,7 @@ struct ContentView: View {
             Text("Better Call Saul View")
                 .toolbarBackground(.visible, for: .tabBar)
                 .tabItem{
-                    Label("Better Call Saul", systemImage: "briefccase")
+                    Label("Better Call Saul", systemImage: "briefcase")
                 }
         }
         .preferredColorScheme(.dark)
