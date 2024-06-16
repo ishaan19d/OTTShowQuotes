@@ -11,6 +11,7 @@
 		4C85B1C52C1CC18A00173650 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85B1C42C1CC18A00173650 /* ViewModel.swift */; };
 		4C85B1C92C1D9C5200173650 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85B1C82C1D9C5200173650 /* QuoteView.swift */; };
 		4C85B1CB2C1DFD4400173650 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85B1CA2C1DFD4400173650 /* CharacterView.swift */; };
+		4C85B1CD2C1F47DE00173650 /* sampleepisode.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C85B1CC2C1F47DE00173650 /* sampleepisode.json */; };
 		4C88DAAA2C1B4FE3008337E0 /* OTTShowQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88DAA92C1B4FE3008337E0 /* OTTShowQuotesApp.swift */; };
 		4C88DAAC2C1B4FE3008337E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88DAAB2C1B4FE3008337E0 /* ContentView.swift */; };
 		4C88DAAE2C1B4FE5008337E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C88DAAD2C1B4FE5008337E0 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		4C85B1C42C1CC18A00173650 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		4C85B1C82C1D9C5200173650 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		4C85B1CA2C1DFD4400173650 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		4C85B1CC2C1F47DE00173650 /* sampleepisode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampleepisode.json; sourceTree = "<group>"; };
 		4C88DAA62C1B4FE3008337E0 /* OTTShowQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTTShowQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C88DAA92C1B4FE3008337E0 /* OTTShowQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTShowQuotesApp.swift; sourceTree = "<group>"; };
 		4C88DAAB2C1B4FE3008337E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		4C88DAB82C1B5647008337E0 /* SampleData */ = {
 			isa = PBXGroup;
 			children = (
+				4C85B1CC2C1F47DE00173650 /* sampleepisode.json */,
 				4C88DABA2C1B5683008337E0 /* samplecharacter.json */,
 				4C88DABB2C1B5683008337E0 /* sampledeath.json */,
 				4C88DAB92C1B5683008337E0 /* samplequote.json */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C88DABE2C1B5683008337E0 /* sampledeath.json in Resources */,
+				4C85B1CD2C1F47DE00173650 /* sampleepisode.json in Resources */,
 				4C88DAB12C1B4FE5008337E0 /* Preview Assets.xcassets in Resources */,
 				4C88DABC2C1B5683008337E0 /* samplequote.json in Resources */,
 				4C88DAAE2C1B4FE5008337E0 /* Assets.xcassets in Resources */,
