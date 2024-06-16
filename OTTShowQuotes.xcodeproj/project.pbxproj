@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		4C85B1C32C1C766F00173650 /* FetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85B1C22C1C766F00173650 /* FetchService.swift */; };
 		4C85B1C52C1CC18A00173650 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85B1C42C1CC18A00173650 /* ViewModel.swift */; };
-		4C85B1C92C1D9C5200173650 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85B1C82C1D9C5200173650 /* QuoteView.swift */; };
+		4C85B1C92C1D9C5200173650 /* FetchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85B1C82C1D9C5200173650 /* FetchView.swift */; };
 		4C85B1CB2C1DFD4400173650 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85B1CA2C1DFD4400173650 /* CharacterView.swift */; };
 		4C85B1CD2C1F47DE00173650 /* sampleepisode.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C85B1CC2C1F47DE00173650 /* sampleepisode.json */; };
 		4C85B1CF2C1F62BD00173650 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85B1CE2C1F62BD00173650 /* StringExt.swift */; };
 		4C85B1D12C1F644B00173650 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85B1D02C1F644B00173650 /* Constants.swift */; };
 		4C85B1D32C1F6BB500173650 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85B1D22C1F6BB500173650 /* Episode.swift */; };
+		4C85B1D52C1F7BCC00173650 /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85B1D42C1F7BCC00173650 /* EpisodeView.swift */; };
 		4C88DAAA2C1B4FE3008337E0 /* OTTShowQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88DAA92C1B4FE3008337E0 /* OTTShowQuotesApp.swift */; };
 		4C88DAAC2C1B4FE3008337E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88DAAB2C1B4FE3008337E0 /* ContentView.swift */; };
 		4C88DAAE2C1B4FE5008337E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C88DAAD2C1B4FE5008337E0 /* Assets.xcassets */; };
@@ -30,12 +31,13 @@
 /* Begin PBXFileReference section */
 		4C85B1C22C1C766F00173650 /* FetchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchService.swift; sourceTree = "<group>"; };
 		4C85B1C42C1CC18A00173650 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		4C85B1C82C1D9C5200173650 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		4C85B1C82C1D9C5200173650 /* FetchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchView.swift; sourceTree = "<group>"; };
 		4C85B1CA2C1DFD4400173650 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 		4C85B1CC2C1F47DE00173650 /* sampleepisode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampleepisode.json; sourceTree = "<group>"; };
 		4C85B1CE2C1F62BD00173650 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 		4C85B1D02C1F644B00173650 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4C85B1D22C1F6BB500173650 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		4C85B1D42C1F7BCC00173650 /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
 		4C88DAA62C1B4FE3008337E0 /* OTTShowQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTTShowQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C88DAA92C1B4FE3008337E0 /* OTTShowQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTTShowQuotesApp.swift; sourceTree = "<group>"; };
 		4C88DAAB2C1B4FE3008337E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,7 +83,8 @@
 			children = (
 				4C88DAA92C1B4FE3008337E0 /* OTTShowQuotesApp.swift */,
 				4C88DAAB2C1B4FE3008337E0 /* ContentView.swift */,
-				4C85B1C82C1D9C5200173650 /* QuoteView.swift */,
+				4C85B1C82C1D9C5200173650 /* FetchView.swift */,
+				4C85B1D42C1F7BCC00173650 /* EpisodeView.swift */,
 				4C85B1CA2C1DFD4400173650 /* CharacterView.swift */,
 				4C85B1C42C1CC18A00173650 /* ViewModel.swift */,
 				4C85B1C22C1C766F00173650 /* FetchService.swift */,
@@ -194,9 +197,10 @@
 				4C88DAC42C1B64C9008337E0 /* Death.swift in Sources */,
 				4C85B1D32C1F6BB500173650 /* Episode.swift in Sources */,
 				4C85B1D12C1F644B00173650 /* Constants.swift in Sources */,
+				4C85B1D52C1F7BCC00173650 /* EpisodeView.swift in Sources */,
 				4C88DAAC2C1B4FE3008337E0 /* ContentView.swift in Sources */,
 				4C88DAC02C1B6363008337E0 /* Quote.swift in Sources */,
-				4C85B1C92C1D9C5200173650 /* QuoteView.swift in Sources */,
+				4C85B1C92C1D9C5200173650 /* FetchView.swift in Sources */,
 				4C85B1CF2C1F62BD00173650 /* StringExt.swift in Sources */,
 				4C88DAAA2C1B4FE3008337E0 /* OTTShowQuotesApp.swift in Sources */,
 				4C85B1C32C1C766F00173650 /* FetchService.swift in Sources */,
