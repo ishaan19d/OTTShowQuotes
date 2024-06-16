@@ -14,7 +14,7 @@ struct QuoteView: View {
     var body: some View {
         GeometryReader { geo in
             ZStack{
-                Image(show.lowercased().replacingOccurrences(of: " ", with: ""))
+                Image(show.removeSpaceAndLowecase())
                     .resizable()
                     .frame(width: geo.size.width * 2.7, height: geo.size.height * 1.2)
                 
@@ -84,7 +84,7 @@ struct QuoteView: View {
                             .font(.title)
                             .foregroundStyle(.white)
                             .padding()
-                            .background(Color("\(show.replacingOccurrences(of: " ", with: ""))Button"))
+                            .background(Color("\(show.removeSpaces())Button"))
                             .clipShape(.rect(cornerRadius: 10))
                             .shadow(color:.black ,radius: 2)
                     }
@@ -100,6 +100,6 @@ struct QuoteView: View {
 }
 
 #Preview {
-    QuoteView(show: "Better Call Saul")
+    QuoteView(show: Constants.bcsName)
         .preferredColorScheme(.dark)
 }
