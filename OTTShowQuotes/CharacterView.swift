@@ -102,6 +102,7 @@ struct CharacterView: View {
                 .scrollIndicators(.hidden)
             }
         }
+        .background(.black)
         .ignoresSafeArea()
     }
 }
